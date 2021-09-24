@@ -96,3 +96,54 @@ CHIP Xor {
     Or(a = nab, b = anb, out = out);
 }
 ```
+
+### Mux
+```hdl
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/01/Mux.hdl
+
+/** 
+ * Multiplexor:
+ * out = a if sel == 0
+ *       b otherwise
+ */
+
+CHIP Mux {
+    IN a, b, sel;
+    OUT out;
+
+    PARTS:
+    // Put your code here:
+    Not(in = sel, out = nsel);
+    And(a = a, b = nsel, out = ansel);
+    And(a = sel, b = b, out = nselb);
+    Or(a = ansel , b = nselb, out = out);
+}
+```
+
+### Dmux
+```hdl
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/01/DMux.hdl
+
+/**
+ * Demultiplexor:
+ * {a, b} = {in, 0} if sel == 0
+ *          {0, in} if sel == 1
+ */
+
+CHIP DMux {
+    IN in, sel;
+    OUT a, b;
+
+    PARTS:
+    // Put your code here:
+    Not(in = sel, out = nsel);
+    And(a = in, b = nsel, out = a);
+    And(a = in, b = sel, out = b);
+}
+```
