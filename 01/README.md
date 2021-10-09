@@ -428,6 +428,6 @@ CHIP DMux8Way {
 ```
 
 ### 迪摩根定二定理證明
-![image]()
+![image](https://github.com/Roy-Roo/co110a/blob/master/01/%E8%BF%AA%E6%91%A9%E6%A0%B9%E5%AE%9A%E4%BA%8C%E5%AE%9A%E7%90%86%E8%AD%89%E6%98%8E.jpg)
 ### 七段顯示器顯示(19%7=5-->f)
-![image]()
+![image](https://github.com/Roy-Roo/co110a/blob/master/01/%E4%B8%83%E6%AE%B5%E9%A1%AF%E7%A4%BA%E5%99%A8.jpg)
