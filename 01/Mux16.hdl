@@ -9,7 +9,7 @@
  *                        b[i] if sel == 1
  */
 
-CHIP Mux16 {
+CHIP  {
     IN a[16], b[16], sel;
     OUT out[16];
 
