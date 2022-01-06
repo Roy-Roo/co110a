@@ -1,6 +1,6 @@
 # Week7-Hw
 
-### Mult.asm
+### Mult
 ![image](https://github.com/Roy-Roo/co110a/blob/master/04/mult/mult.jpg)
 ```hdl
 // This file is part of www.nand2tetris.org
@@ -34,8 +34,7 @@ M=D
 0;JMP
 ```
 
-
-### Fill.asm
+### Fill
 ![image](https://github.com/Roy-Roo/co110a/blob/master/04/fill/fillb.jpg)
 ![image](https://github.com/Roy-Roo/co110a/blob/master/04/fill/fillw.jpg)
 ```hdl
