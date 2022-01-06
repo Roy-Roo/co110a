@@ -1,4 +1,4 @@
-# Week1-Hw
+# Week7-Hw
 
 ### Mult.asm
 ![image](https://github.com/Roy-Roo/co110a/blob/master/01/Not.jpg)
