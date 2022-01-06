@@ -1,48 +1,90 @@
 # Week7-Hw
 
 ### Mult.asm
-![image](https://github.com/Roy-Roo/co110a/blob/master/01/Not.jpg)
+![image](https://github.com/Roy-Roo/co110a/blob/master/04/mult/mult.jpg)
 ```hdl
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
-// File name: projects/01/Not.hdl
+// File name: projects/04/Mult.asm
 
-/**
- * Not gate:
- * out = not in
- */
+// Multiplies R0 and R1 and stores the result in R2.
+// (R0, R1, R2 refer to RAM[0], RAM[1], and RAM[2], respectively.)
 
-CHIP Not {
-    IN in;
-    OUT out;
-
-    PARTS:
-    // Put your code here:
-    Nand(a = in, b = in, out = out);
-}
+// Put your code here.
+@2
+D=A
+@0     
+M=D
+@4
+D=A
+@1
+M=D
+@11
+M=D
+D=0
+@0    
+D=D+M
+@11
+M=M-1
+M;JNE
+@2
+M=D
+@18
+0;JMP
 ```
 
 
 ### Fill.asm
-![image](https://github.com/Roy-Roo/co110a/blob/master/01/Not.jpg)
+![image](https://github.com/Roy-Roo/co110a/blob/master/04/fill/fillb.jpg)
+![image](https://github.com/Roy-Roo/co110a/blob/master/04/fill/fillw.jpg)
 ```hdl
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
-// File name: projects/01/Not.hdl
+// File name: projects/04/Fill.asm
 
-/**
- * Not gate:
- * out = not in
- */
+// Runs an infinite loop that listens to the keyboard input.
+// When a key is pressed (any key), the program blackens the screen,
+// i.e. writes "black" in every pixel;
+// the screen should remain fully black as long as the key is pressed. 
+// When no key is pressed, the program clears the screen, i.e. writes
+// "white" in every pixel;
+// the screen should remain fully clear as long as no key is pressed.
 
-CHIP Not {
-    IN in;
-    OUT out;
-
-    PARTS:
-    // Put your code here:
-    Nand(a = in, b = in, out = out);
-}
+// Put your code here.
+@24576
+D=M     
+@0
+D;JEQ
+@8192
+D=A    
+@10
+M=D
+@16384
+D=A
+A=d
+D=D+1
+M=-1
+@10    
+M=M-1
+M;JNE
+@24576 
+D=M    
+@16 
+D;JNE  
+@8192  
+D=A    
+@26    
+M=D
+@16384 
+D=A    
+A=D    
+D=D+1  
+M=0   
+@26
+M=M-1  
+M;JNE
+@0
+0;JMP
 ```
