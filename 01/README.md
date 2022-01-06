@@ -1,6 +1,7 @@
 # Week1-Hw
 
 ### Not
+![image](https://github.com/Roy-Roo/co110a/blob/master/01/Not.jpg)
 ```hdl
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
@@ -23,6 +24,7 @@ CHIP Not {
 ```
 
 ### And
+![image](https://github.com/Roy-Roo/co110a/blob/master/01/And.jpg)
 ```hdl
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
@@ -47,6 +49,7 @@ CHIP And {
 ```
 
 ### Or
+![image](https://github.com/Roy-Roo/co110a/blob/master/01/Or.jpg)
 ```hdl
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
@@ -72,6 +75,7 @@ CHIP Or {
 ```
 
 ### Xor
+![image](https://github.com/Roy-Roo/co110a/blob/master/01/Xor.jpg)
 ```hdl
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
@@ -98,6 +102,7 @@ CHIP Xor {
 ```
 
 ### Mux
+![image](https://github.com/Roy-Roo/co110a/blob/master/01/Mux.jpg)
 ```hdl
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
@@ -123,7 +128,8 @@ CHIP Mux {
 }
 ```
 
-### Dmux
+### DMux
+![image](https://github.com/Roy-Roo/co110a/blob/master/01/DMux.jpg)
 ```hdl
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
@@ -151,6 +157,7 @@ CHIP DMux {
 # Week2-Hw
 
 ### Not16
+![image](https://github.com/Roy-Roo/co110a/blob/master/01/Not16.jpg)
 ```hdl
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
@@ -188,6 +195,7 @@ CHIP Not16 {
 ```
 
 ### And16
+![image](https://github.com/Roy-Roo/co110a/blob/master/01/And16.jpg)
 ```hdl
 CHIP And16 {
     IN a[16], b[16];
@@ -215,6 +223,7 @@ CHIP And16 {
 ```
 
 ### Or16
+![image](https://github.com/Roy-Roo/co110a/blob/master/01/Or16.jpg)
 ```hdl
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
@@ -252,6 +261,7 @@ CHIP Or16 {
 ```
 
 ### Mux16
+![image](https://github.com/Roy-Roo/co110a/blob/master/01/Mux16.jpg)
 ```hdl
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
@@ -290,6 +300,7 @@ CHIP  {
 ```
 
 ### Or8Way
+![image](https://github.com/Roy-Roo/co110a/blob/master/01/Or8Way.jpg)
 ```hdl
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
@@ -318,6 +329,7 @@ CHIP Or8Way {
 ```
 
 ### Mux4Way16
+![image](https://github.com/Roy-Roo/co110a/blob/master/01/Mux4Way16.jpg)
 ```hdl
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
@@ -345,6 +357,7 @@ CHIP Mux4Way16 {
 ```
 
 ### Mux8Way16
+![image](https://github.com/Roy-Roo/co110a/blob/master/01/Mux8Way16.jpg)
 ```hdl
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
@@ -374,6 +387,7 @@ CHIP Mux8Way16 {
 ```
 
 ### DMux4Way
+![image](https://github.com/Roy-Roo/co110a/blob/master/01/DMux4Way.jpg)
 ```hdl
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
@@ -401,6 +415,7 @@ CHIP DMux4Way {
 ```
 
 ### DMux8Way
+![image](https://github.com/Roy-Roo/co110a/blob/master/01/DMux8Way.jpg)
 ```hdl
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
