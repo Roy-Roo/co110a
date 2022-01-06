@@ -1,7 +1,6 @@
 # Week8-Hw
 
 ### CPU
-
 ```hdl
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
